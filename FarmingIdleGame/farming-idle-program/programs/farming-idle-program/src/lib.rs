@@ -1,3 +1,6 @@
+#![allow(deprecated)]
+#![allow(unexpected_cfgs)]
+
 use anchor_lang::prelude::*;
 use anchor_lang::solana_program::log::sol_log_compute_units;
 
@@ -7,7 +10,7 @@ use instructions::initialize_leaderboard_instruction::*;
 use instructions::submit_farm_instruction::*;
 use instructions::upgrade_farm_instruction::*;
 
-declare_id!("RkoKjJ7UVatbVegugEjq11Q5agPynBAZV2VhPrNp5kH");
+declare_id!("9XSbAChRjx7SppoSYxc42rEKTrGS2d66L1e9kkL15AMr");
 
 // Globals
 mod globals;

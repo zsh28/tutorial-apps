@@ -1,8 +1,9 @@
 [features]
-seeds = false
+resolution = true
 skip-lint = false
-[programs.localnet]
-farming_idle_program = "RkoKjJ7UVatbVegugEjq11Q5agPynBAZV2VhPrNp5kH"
+
+[programs.devnet]
+farming_idle_program = "9XSbAChRjx7SppoSYxc42rEKTrGS2d66L1e9kkL15AMr"
 
 [registry]
 url = "https://api.apr.dev"
