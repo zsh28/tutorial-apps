@@ -10,7 +10,7 @@ use instructions::initialize_leaderboard_instruction::*;
 use instructions::submit_farm_instruction::*;
 use instructions::upgrade_farm_instruction::*;
 
-declare_id!("9XSbAChRjx7SppoSYxc42rEKTrGS2d66L1e9kkL15AMr");
+declare_id!("HzWhK4gvLuCNU3WNTgEtt55EVA1pGhQ71FymoYBM9UjM");
 
 // Globals
 mod globals;
